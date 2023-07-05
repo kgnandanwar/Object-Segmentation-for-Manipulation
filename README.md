@@ -2,9 +2,9 @@
 
 Problem Statement:
 
-Read a depth image with defined defines the camera intrinsic and extrinsic parameters.
+Read a depth image with defined defines the camera's intrinsic and extrinsic parameters.
 
-Extend this code to:
+Extended this code to:
 1. Deproject the depth image to a point cloud.
 2. Filter the objects on the table (remove the table from the point cloud).
 3. Project the point cloud to a depth map from a top-down view, and save the depth map as an image.
